@@ -1,0 +1,174 @@
+*{
+font-family: "poppins", sans-serif;
+margin: 0;
+padding: 0;
+ box-sizing: border-box;
+
+}
+
+header{
+margin: 30px 30px 20px 30px;
+}
+
+section{
+width: 100vw;
+
+}
+.buttom-header{
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+align-content: center;
+margin-right: 20px;
+color: #17233d;
+
+}
+
+.lado-esquerdo{
+display: inline-block;
+width: 45vw;
+
+
+}
+
+
+.lado-direito{
+display: inline-block;
+width: 50vw;
+
+}
+
+img{
+width: 520px;
+height: 400px;
+margin-top: 100px;
+margin-left: 20px;
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+font-weight: 700;
+font-size: 62px;
+line-height: 82px;
+color: #161a49;
+margin: 0 0 20px 50px;
+
+}
+
+p{
+width: 490px;
+margin-left: 53px;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+color: #4B505A;
+
+
+}
+
+.buttom-l{
+width: 90px;
+height: 36px;
+color:#ffffff;
+background: green;
+cursor: pointer;
+border-radius: 7px;
+margin-left: 0;
+    
+}
+
+.buttom-l:hover{
+    opacity: 0.8;
+}
+
+.buttom-l:active{
+    opacity: 0.5;
+}
+
+button{
+width: 100px;
+height: 37px;
+color:#6fbf44;
+background: none;
+border: none;
+cursor: pointer;
+border-radius: 7px;
+margin: 25px 0 50px 44px;
+
+
+}
+
+ 
+@media screen and (max-width: 900px){
+
+header{
+
+    display: none;
+}
+
+.lado-direito{
+display: block;
+width: 100%;
+height: auto;
+padding: 0;
+margin: 0;
+
+}
+
+.lado-esquerdo{
+display: block;
+height: auto;
+width: auto;
+position: static;
+padding: 40px;
+margin-top:30px;
+
+}
+
+img{
+position: absolute;
+    margin-top: 525px;
+width: auto;
+  height: 400px;
+  padding: 73px;
+  margin-left: -67px;
+}
+
+h1{
+width: auto;
+    height: auto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #161a49;
+    margin: 90px 0 20px 20px;
+    text-align: center;
+
+}
+
+p{
+ 
+  width: auto;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #4B505A;
+    height: auto;
+    text-align: center;
+    margin: 0 70px 0 70px;
+}
+
+button{
+width: auto;
+    height: auto;
+    color: #6fbf44;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 10px 0 10px 130px;
+    font-size: 20px;
+}
+
+}
